@@ -21,6 +21,13 @@
   "devDependencies": {
     "@types/node": "^20.12.2",
     "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.23",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^14.1.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^9.0.11",
+    "postcss-preset-env": "^9.5.2",
     "typescript": "5.4.3"
   }
 }
