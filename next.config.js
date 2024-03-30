@@ -6,6 +6,23 @@ const nextConfig = {
 	images: {
 		// domains: [process.env.NEXT_PUBLIC_IMAGES],
 	},
+	experimental: {
+		turbo: {
+			rules: {
+				// Option format
+				'*.md': [
+					{
+						loader: '@mdx-js/loader',
+						options: {
+							format: 'md'
+						}
+					}
+				],
+				// Option-less format
+				'*.mdx': ['@mdx-js/loader']
+			}
+		}
+	}
 };
 
 export default nextConfig;
