@@ -90,6 +90,6 @@ export default function Home() {
 		//     </a>
 		//   </div>
 		// </main>
-		<main>sdsdsdsdsdsds asdasdasdasd asdasd sdfdsf ff</main>
+		<main>sdsdsdsdsdsds asdasdasdasd </main>
 	);
 }
