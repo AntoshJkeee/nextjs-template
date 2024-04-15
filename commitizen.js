@@ -41,15 +41,16 @@ module.exports = {
 	],
 	messages: {
 		type: 'Какие изменения вы вносите?',
-		scope: 'Выберите область изменений',
+		// scope: 'Выберите область изменений',
 		subject: 'Напишите КОРОТКИЙ заголовок, описывающий коммит: ',
 		footer: 'Укажите номер таска из ActiveCollab. Например: Task-29027-130, Task-32997-340',
 		body: 'Полное описание проделанной работы с указанием файла, который изменил',
 		confirmCommit: 'Вас устраивает получившийся коммит?',
 	},
-	scopes: [{ name: 'frontend', value: false }],
+	// scopes: [],
 	allowBreakingChanges: false,
 	allowCustomScopes: false,
+	skipEmptyScopes: true,
 	footerPrefix: 'METADATA:',
 	subjectLimit: 72,
 };
