@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const nextConfig = {
+module.exports = {
 	// basePath: process.env.NEXT_PUBLIC_BASE_PATH,
 	swcMinify: true,
 	images: {
@@ -14,15 +14,13 @@ const nextConfig = {
 					{
 						loader: '@mdx-js/loader',
 						options: {
-							format: 'md'
-						}
-					}
+							format: 'md',
+						},
+					},
 				],
 				// Option-less format
-				'*.mdx': ['@mdx-js/loader']
-			}
-		}
-	}
+				'*.mdx': ['@mdx-js/loader'],
+			},
+		},
+	},
 };
-
-export default nextConfig;
