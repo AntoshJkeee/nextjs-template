@@ -47,6 +47,7 @@ module.exports = {
 		confirmCommit: 'Вас устраивает получившийся коммит?',
 	},
 	allowBreakingChanges: false,
+	allowCustomScopes: false,
 	footerPrefix: 'METADATA:',
 	subjectLimit: 72,
 };
