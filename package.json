@@ -9,7 +9,7 @@
 		"dev": "next start",
 		"lint": "next lint",
 		"stylelint": "stylelint \"**/*.scss\" --fix",
-		"install": "npx husky install"
+		"install": "git config core.hooksPath .git-hooks"
 	},
 	"author": "",
 	"license": "ISC",
