@@ -1,0 +1,23 @@
+.header {
+	display: flex;
+	justify-content: center;
+
+	padding: 15px;
+
+	background: hsl(351deg 54% 80%);
+}
+
+.navigation {
+	display: flex;
+	column-gap: 10px;
+}
+
+.link {
+	text-decoration: none;
+
+	color: hsl(0deg 0% 0%);
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
