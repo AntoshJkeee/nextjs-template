@@ -1,7 +1,4 @@
-'use client';
-
 import { Button, Text } from '../../../../shared/ui';
-import { setCookie } from '../../../../shared/hooks/useCookie';
 
 interface PageProps {
 	params: {
@@ -10,10 +7,6 @@ interface PageProps {
 }
 
 export default function CoursePage({ params }: PageProps) {
-	const onClickCourseHandler = () => {
-		setCookie('test', 4, { 'max-age': 3600 });
-	};
-
 	return (
 		<>
 			<h3 style={{ textAlign: 'center' }}>Курс № {params.courseId}</h3>
@@ -27,8 +20,16 @@ export default function CoursePage({ params }: PageProps) {
 					est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, est.
 				</p>
 				<Text text="Текст"></Text>
-				<Button type="button" text="Купить" onClick={onClickCourseHandler} />
+				<Button type="button" text="Купить" />
 			</div>
 		</>
 	);
+}
+
+export async function generateStaticParams() {
+	const posts = await fetch('https://jsonplaceholder.typicode.com/posts').then((res) => res.json());
+
+	return posts.map((post: any) => ({
+		courseId: post.id.toString(),
+	}));
 }
