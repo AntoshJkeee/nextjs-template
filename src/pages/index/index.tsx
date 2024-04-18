@@ -1,4 +1,4 @@
-import './main.scss';
+import './index.scss';
 
 export default function MainPage() {
 	return (

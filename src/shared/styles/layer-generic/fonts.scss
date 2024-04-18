@@ -10,8 +10,8 @@ $include-font-types: ("woff2": "woff2");
 $include-font-family: "FiraSans";
 
 // # ВЫЗОВ МИКСИНА ПОДКЛЮЧЕНИЯ ШРИФТОВ # //
-@include includeFont("FiraSans-Medium", 500);
-@include includeFont("FiraSans-Bold", 700);
+//@include includeFont("FiraSans-Medium", 500);
+//@include includeFont("FiraSans-Bold", 700);
 
 // --------------------------------------Montserrat------------------------------------------------- //
 
@@ -23,4 +23,4 @@ $include-font-types: ("woff2": "woff2");
 $include-font-family: "Montserrat";
 
 // # ВЫЗОВ МИКСИНА ПОДКЛЮЧЕНИЯ ШРИФТОВ # //
-@include includeFont("Montserrat-Bold", 700);
+//@include includeFont("Montserrat-Bold", 700);

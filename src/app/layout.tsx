@@ -1,5 +1,5 @@
-import type { Metadata } from 'next';
 import './main.scss';
+import type { Metadata } from 'next';
 import { Header } from '../widgets/header';
 
 export const metadata: Metadata = {
