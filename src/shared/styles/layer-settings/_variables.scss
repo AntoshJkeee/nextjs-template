@@ -1,5 +1,5 @@
 // # ПОДКЛЮЧЕНИЕ SCSS ПЕРЕМЕННЫХ ДЛЯ root.scss и default.scss # //
-@import "../../lib/swiss-knife-scss/variables";
+@import "../../lib/swiss-knife-scss/layer-settings/variables";
 
 // # ОБЪЯВЛЕНИЕ CSS ПЕРЕМЕННЫХ ДЛЯ ROOT # //
 $variables-root: variables-root((
