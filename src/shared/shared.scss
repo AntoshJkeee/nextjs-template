@@ -1,8 +1,6 @@
 // # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
 @import "styles/include-setings-styles";
 
-@layer generic, elements, components-shared, components-entities, components-widgets, pages, utilities;
-
 // # ------------ LAYER GENERIC ------------ # //
 @layer generic {
 	// ## Подключение шрифтов ## //
@@ -23,4 +21,6 @@
 
 // # ------------ LAYER COMPONENTS ------------ # //
 // ## Стили компонентов ## //
-@import "ui/ui";
+@layer components-shared {
+	@import "ui/ui";
+}
