@@ -8,13 +8,13 @@
 	// ## Стили библиотек ## //
 	@import "styles/layer-generic/vendors";
 	// ## CSS root переменные ## //
-	@import "lib/swiss-knife-scss/layer-generic/root";
+	@import "swiss-knife-scss/layer-generic/root";
 }
 
 // # ------------ LAYER ELEMENTS ------------ # //
 // ## Сброс стилей ## //
 @layer elements {
-	@import "lib/swiss-knife-scss/layer-elements/reset";
+	@import "swiss-knife-scss/layer-elements/reset";
 	// ## стили стандартных тегов ## //
 	@import "styles/layer-elements/default";
 }
