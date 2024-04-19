@@ -7,6 +7,7 @@
     "strictPropertyInitialization": false,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
+		"noImplicitAny": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",

@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import { ROUTER_PATHS } from '../../shared/constants/routes';
 import styles from './header.module.scss';
