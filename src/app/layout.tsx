@@ -1,6 +1,7 @@
 import './main.scss';
 import type { Metadata } from 'next';
-import { Header } from '../widgets/header';
+import { Header, Footer } from '../widgets';
+import { ReactNode } from 'react';
 
 export const metadata: Metadata = {
 	title: 'Next Layout',
@@ -10,13 +11,14 @@ export const metadata: Metadata = {
 export default function RootLayout({
 	children,
 }: Readonly<{
-	children: React.ReactNode;
+	children: ReactNode;
 }>) {
 	return (
 		<html lang="ru">
 			<body>
 				<Header />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);

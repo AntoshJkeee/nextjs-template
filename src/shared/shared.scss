@@ -1,5 +1,5 @@
 // # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
-@import "styles/include-setings-styles";
+@import "styles/include-settings-styles";
 
 // # ------------ LAYER GENERIC ------------ # //
 @layer generic {
@@ -19,8 +19,7 @@
 	@import "styles/layer-elements/default";
 }
 
-// # ------------ LAYER COMPONENTS ------------ # //
-// ## Стили компонентов ## //
-@layer components-shared {
-	@import "ui/ui";
+// # ------------ LAYER UTILITIES ------------ # //
+@layer utilities {
+	@import "../shared/styles/layer-utilities/utilities";
 }

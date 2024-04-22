@@ -1,4 +1,3 @@
 // # ИМПОРТ UI КОМПОНЕНТОВ # //
-
-export * from './Text';
-export * from './Button';
+export * from './Text/Text';
+export * from './Button/Button';

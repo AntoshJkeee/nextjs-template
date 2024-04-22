@@ -1,8 +1,4 @@
-import React from 'react';
-
-interface IText {
-	text: string;
-}
+import { IText } from './Text.types';
 
 export const Text = ({ text }: IText) => {
 	return <p>{text}</p>;
