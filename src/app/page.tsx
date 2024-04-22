@@ -1,4 +1,4 @@
-import MainPage from '../pages/index/index';
+import MainPage from '../_pages/index/index';
 export default MainPage;
 // import './page.scss';
 

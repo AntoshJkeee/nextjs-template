@@ -1,3 +1,4 @@
+import './Header.scss';
 import Link from 'next/link';
 import { ROUTER_PATHS } from '../../shared/constants/routes';
 import styles from './Header.module.scss';
@@ -8,7 +9,7 @@ export function Header() {
 	return (
 		<footer className={styles.header}>
 			<nav className={styles.navigation}>
-				<Button data={{ text: 'Войти' }} cn={{ margin: 'mt-12' }} className="dsdsd__Dsds" />
+				<Button className="header__button-log" data={{ text: 'Войти' }} cn={{ margin: 'mt-12' }} />
 				<Link className={styles.link} href={ROUTER_PATHS.ROOT}>
 					<SiNextdotjs />
 				</Link>

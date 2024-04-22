@@ -1,6 +1,6 @@
 import './Button.scss';
 import IButton from './Button.types';
-import { classes } from './Button.cn';
+import classes from './Button.cn';
 import { useClassName } from '../../hooks';
 
 export const Button = (props: IButton) => {

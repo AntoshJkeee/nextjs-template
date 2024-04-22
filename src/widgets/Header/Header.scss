@@ -1,0 +1,11 @@
+// # ------------ LAYER SETTINGS and LAYER TOOLS------------ # //
+@import "../../shared/styles/include-settings-styles";
+
+// # ------------ LAYER COMPONENTS ------------ # //
+@layer components-widgets {
+	.header {
+		&__button-log {
+			display: inline;
+		}
+	}
+}

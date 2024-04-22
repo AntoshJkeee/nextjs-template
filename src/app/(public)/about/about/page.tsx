@@ -1,4 +1,4 @@
-import AboutPage from '../../../_pages/about/about';
+import AboutPage from '../../../../_pages/about/about';
 export default AboutPage;
 
 // export default function AboutPage() {
