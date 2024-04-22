@@ -4,9 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "next dev",
+		"dev": "next dev",
+		"start": "next start",
 		"build": "next build",
-		"dev": "next start",
 		"lint": "next lint",
 		"stylelint": "stylelint \"**/*.scss\" --fix",
 		"install": "git config core.hooksPath .git-hooks"
