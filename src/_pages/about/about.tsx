@@ -1,3 +1,6 @@
+import { Button } from '../../shared/ui';
+import { Dddd } from '../../entities/Dddd/Dddd';
+
 export default function AboutPage() {
 	return (
 		<>
@@ -14,6 +17,15 @@ export default function AboutPage() {
 					качественно новой ступенью соответствующих условий активизации. Картельные сговоры не допускают ситуации, при
 					которой действия представителей оппозиции функционально разнесены на независимые элементы.
 				</p>
+				<Dddd />
+				<code>1123123133123212133121321321321313234</code>
+				<Button className="button222" type="button" text="Скрыть/показать" />
+				{
+					// valueToggle &&
+					<div
+						style={{ width: '600px', height: '200px', textAlign: 'center', margin: '0 auto', background: 'blue' }}
+					></div>
+				}
 			</div>
 		</>
 	);
