@@ -10,5 +10,5 @@ build:
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
   script:
-    - npm install 
+    - npm ci 
     - npm run build
