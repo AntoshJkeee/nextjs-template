@@ -1,2 +1,3 @@
 import { withNaming } from '@bem-react/classname';
-export const CN = withNaming({ e: '__', m: '_' });
+const CN = withNaming({ e: '__', m: '_' });
+export default CN;

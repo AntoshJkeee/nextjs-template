@@ -19,12 +19,6 @@
 	@import "styles/layer-elements/default";
 }
 
-// # ------------ LAYER COMPONENTS ------------ # //
-// ## Стили компонентов ## //
-@layer components-shared {
-	@import "ui/ui";
-}
-
 // # ------------ LAYER UTILITIES ------------ # //
 @layer utilities {
 	@import "../shared/styles/layer-utilities/utilities";

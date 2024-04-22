@@ -1,4 +1,4 @@
-import { Button, Text } from '../../../../shared/ui';
+import { Text } from '../../../../shared/ui';
 
 interface PageProps {
 	params: {
@@ -20,7 +20,7 @@ export default function CoursePage({ params }: PageProps) {
 					est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, est.
 				</p>
 				<Text text="Текст"></Text>
-				<Button type="button" text="Купить" />
+				{/*<Button type="button" text="Купить" />*/}
 			</div>
 		</>
 	);
