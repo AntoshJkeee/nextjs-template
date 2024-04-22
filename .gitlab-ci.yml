@@ -4,7 +4,7 @@ build:
   services:
     - node:20.11.1-alpine3.19:dind
   before_script:
-    - apk add openssh-client
+    - apk add openssh-client git
     - eval $(ssh-agent -s)
     - echo "${SSH_KEY}" | tr -d '\r' | ssh-add -
     - mkdir -p ~/.ssh
