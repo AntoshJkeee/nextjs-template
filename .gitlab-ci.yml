@@ -25,6 +25,6 @@ build:
     - docker:dind
   script:
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD registry.zaryad.tech
-    - docker build -t registry.zaryad.tech/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME/$CI_COMMIT_REF_SLUG.$CI_PROJECT_NAME .
+    - export DOCKER_HOST=tcp://127.0.0.1:2375 && docker build -t registry.zaryad.tech/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME/$CI_COMMIT_REF_SLUG.$CI_PROJECT_NAME .
     - docker push registry.zaryad.tech/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME/$CI_COMMIT_REF_SLUG.$CI_PROJECT_NAME
  
