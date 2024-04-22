@@ -1,7 +1,4 @@
-interface IButton extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-	type: 'submit' | 'reset' | 'button' | undefined;
-	text: string;
-}
+import { IButton } from './Button.types';
 
 export const Button = ({ text, type, onClick }: IButton) => {
 	return (

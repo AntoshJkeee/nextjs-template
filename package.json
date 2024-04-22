@@ -18,10 +18,11 @@
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-icons": "^5.1.0",
-		"swiss-knife-scss": "^1.0.1",
+		"swiss-knife-scss": "^1.0.2",
 		"swr": "^2.2.5"
 	},
 	"devDependencies": {
+		"@bem-react/classname": "^1.6.0",
 		"@commitlint/cli": "^19.2.2",
 		"@commitlint/config-conventional": "^19.2.2",
 		"@types/node": "^20.12.2",
@@ -42,7 +43,6 @@
 		"lint-staged": "^15.2.2",
 		"postcss": "^8.4.16",
 		"postcss-loader": "^8.1.1",
-		"postcss-preset-env": "^9.5.2",
 		"postcss-scss": "^4.0.9",
 		"sass": "^1.75.0",
 		"stylelint": "^15.11.0",
