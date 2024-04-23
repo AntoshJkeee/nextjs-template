@@ -19,7 +19,7 @@ export default function AboutPage() {
 				</p>
 				<Dddd />
 				<code>1123123133123212133121321321321313234</code>
-				<Button className="button222" type="button" text="Скрыть/показать" />
+				<Button type="button" data={{ text: 'Кнопка' }} cn={{ margin: 'mt-12' }} />
 				{
 					// valueToggle &&
 					<div
